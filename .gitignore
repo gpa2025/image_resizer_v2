@@ -5,9 +5,9 @@ __pycache__/
 *.so
 .Python
 env/
-# build/ - Commented out to include build directory
+# build/ - Removed to include build directory and all its contents
 develop-eggs/
-# dist/ - Commented out to include dist directory
+# dist/ - Removed to include dist directory and all its contents
 downloads/
 eggs/
 .eggs/
@@ -41,9 +41,3 @@ ENV/
 # OS specific files
 .DS_Store
 Thumbs.db
-
-# Keep build and dist directories but ignore their contents except .gitkeep
-build/*
-!build/.gitkeep
-dist/*
-!dist/.gitkeep
