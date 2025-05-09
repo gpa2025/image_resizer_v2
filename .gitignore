@@ -5,9 +5,9 @@ __pycache__/
 *.so
 .Python
 env/
-build/
+# build/ - Commented out to include build directory
 develop-eggs/
-dist/
+# dist/ - Commented out to include dist directory
 downloads/
 eggs/
 .eggs/
@@ -22,7 +22,7 @@ var/
 
 # PyInstaller
 *.manifest
-*.spec
+# *.spec - Commented out to include spec files
 
 # Logs
 *.log
@@ -41,3 +41,9 @@ ENV/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Keep build and dist directories but ignore their contents except .gitkeep
+build/*
+!build/.gitkeep
+dist/*
+!dist/.gitkeep
