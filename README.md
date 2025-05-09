@@ -30,7 +30,7 @@ Supports multiple image formats including JPG, PNG, GIF, BMP, TIFF, and WEBP.
 
 ### Option 1: Download the Executable
 
-1. Download the executable file (`ImageResizer.exe`)
+1. Download the executable file (`dist\ImageResizer.exe`)
 2. Run the executable directly - no installation required
 
 ### Option 2: Run from Source
