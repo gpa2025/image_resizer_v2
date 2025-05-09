@@ -102,4 +102,4 @@ To build the executable yourself:
    python build_exe.py --cli
    ```
 
-3. Find the executable in the `dist` folder
+3. Find the executable in the `dist` folder# image_resizer_v2
